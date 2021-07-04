@@ -1,3 +1,94 @@
-h1 {
-	color: blueviolet;
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #65A235;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 2px 2px 2px black;
 }
+.alimentos {
+	margin-top: auto;
+}
+#header-nav	{
+	background-color: #A0A69B;
+	border-radius: 0;
+	margin: 0;
+	border-color: black	;
+	height: 53px;
+}
+.navbar-brand {
+	font-size: 40px;
+	margin: 0;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 0;
+	background-color: blue;
+	clear: both;
+}
+#nav-list a {
+	color: #fff;
+	text-align: center;
+}
+#nav-list a:hover {
+	background-color: red;
+	border: 1px solid black;
+}
+#nav-list span{
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #397B03;
+}
+div h1 {
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	text-shadow: 2px 2px 2px black;
+}
+div	p {
+	font-size: 1.8em;
+	text-shadow: 1px 1px 1px black;
+}
+#nuestro-menu {
+	padding-top: 10px;
+	text-align: center;
+	width: 100%;
+
+}
+.jumbotron {
+	padding-top: 0px;
+	margin-top: 70px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: #A0A69B;
+	border: 1px solid	black;
+	font-size: 5vw;
+}
+.jumbotron .row h1 {
+	font-size: 30px;
+	padding-top: 10px;
+}
+.jumbotron .row {
+	margin-right: 14px;
+	margin-left: 14px;
+}
+div .container{
+	background-color: #A0A69B;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: -15px;
+}
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-default {
+    background-color: #A0A69B;
+    border-color: #e7e7e7;
